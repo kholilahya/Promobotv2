@@ -1,0 +1,9 @@
+services:
+  promobot:
+    build: .
+    container_name: promobot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data

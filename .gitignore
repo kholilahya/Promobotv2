@@ -1,0 +1,29 @@
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.save
+*.save.*
+
+# Database and runtime data
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+
+# Local backups and temporary patches
+*.backup*
+patch_publish.py
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
